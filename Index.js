@@ -8,7 +8,7 @@ const CLIENT_ID = 'you cient id';
 const CLIENT_SECRET = 'you client secret';
 const REFRESH_TOKEN = 'you refresh token';
 const XENFORO_XF_USER_COOKIE = "you xenforo xf_user cookie value";
-const SIGNATUREBBCODE = "[int_rock]\n>[MEDIA=Spotify]track/{0}[/MEDIA]";
+const SIGNATURE_BBCODE = "[int_rock]\n>[MEDIA=Spotify]track/{0}[/MEDIA]";
 //const SIGNATUREHTML = "<h1>HTML</h1>";
 const SIGNATURE_NO_PLAYNG = "[int_seta]";
 const LOGFILE = "error.log"
@@ -103,7 +103,7 @@ async function NowPlayingSignature() {
     const songArtist = song.item.artists[0].name;
     console.log(`Now playing: ${songTitle} by ${songArtist}`);
     const songId = song.item.id;
-    const nowPlaying = SIGNATUREBBCODE.replace("{0}", songId);
+    const nowPlaying = SIGNATURE_BBCODE.replace("{0}", songId);
     return nowPlaying
   }
     //Currently not playing
