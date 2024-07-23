@@ -8,7 +8,7 @@ const CLIENT_ID = 'you cient id';
 const CLIENT_SECRET = 'you client secret';
 const REFRESH_TOKEN = 'you refresh token';
 const XENFORO_XF_USER_COOKIE = "you xenforo xf_user cookie value";
-const SIGNATURE_BBCODE = "[int_rock]\n>[MEDIA=Spotify]track/{0}[/MEDIA]";
+const SIGNATURE_BBCODE = "[int_rock]Now playing [int_setarosa]\n\n[RIGHT][MEDIA=Spotify]track/{0}[/MEDIA][/RIGHT]";
 //const SIGNATUREHTML = "<h1>HTML</h1>";
 const SIGNATURE_NO_PLAYNG = "[int_seta]";
 const LOGFILE = "error.log"
